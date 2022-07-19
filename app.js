@@ -1,53 +1,76 @@
 
+// ========================================================
+// assignment #08
+// =========================================================
 
-// ============================
+// =========================================================
+//                question # 01
+// =========================================================
 
-// ============================
+// var userinput = prompt("enter positive numbere in the form of decimal")
+// document.write("number = " + Number(userinput)+"<br>" )
+// document.write("round off = " + Math.round(userinput)+"<br>")
+// document.write("ceil = " + Math.ceil(userinput)+"<br>")
+// document.write("floor = " + Math.floor(userinput)+"<br>")
 
-// var number = 3.45214;
-// document.write("<h1> Number : " + number + "</h1>");
-// document.write("<h1> Round Off Value : " + Math.round(number) + "</h1>");
-// document.write("<h1> Floor value :  " + Math.floor(number) + "</h1>");
-// document.write("<h1> Ceil value : " + Math.ceil(number) + "</h1>" )
-// var num = -2.673;
-// document.write("<h1> Number : " + num + "</h1>");
-// document.write("<h1> Number : " + Math.round(num) + "</h1>");
-// document.write("<h1> Number : " + Math.floor(num) + "</h1>");
-// document.write("<h1> Number : " + Math.ceil(num) + "</h1>");
-// var num = prompt("Enter the value");
-// var absoluteValue = Math.abs(num);
-// document.write("<h1> Absolute value of " + num + " is " + absoluteValue + "</h1>");
-// var randomNumber = Math.random() 
-// ==============================================
 
-// =================================================
+// =========================================================
+//                question # 02
+// =========================================================
 
-// var randomNumber = Math.random();
-// var num = Math.round(randomNumber*6);
-// document.write("<h1> Random Dice Value is: " + num + "</h1>");
-// var randomNumber = Math.random();
-// var num = Math.round(randomNumber*5);
-// document.write("<h1> Random Dice Value is: " + num + "</h1>");
-// var num = Math.random();
-// var diceNum = Math.round(num * 2);
-// if(diceNum === 2){
-//     document.write("<h1> Random Dice value is: Heads </h1>");
-// }else if(diceNum === 1){
-//     document.write("<h1> Random Dice value is: Tails");
+
+// var userinput = prompt("enter positive numbere in the form of decimal")
+// document.write("number = " + Number(userinput)+"<br>" )
+// document.write("round off = " + Math.round(userinput)+"<br>")
+// document.write("ceil = " + Math.ceil(userinput)+"<br>")
+// document.write("floor = " + Math.floor(userinput)+"<br>")
+
+
+
+// =========================================================
+//                question # 03
+// =========================================================
+
+// var userinput =+prompt("enter a integer")
+// document.write( "absolute value of"+userinput+"is" + Math.abs(userinput))
+
+
+// =========================================================
+//                question # 04
+// =========================================================
+
+// var num = Math.random()*6
+// console.log(Math.round(num))
+
+// =========================================================
+//                question # 05
+// =========================================================
+
+
+// var num = Math.random()*1
+// console.log(Math.round(num))
+
+
+// =========================================================
+//                question # 06
+// =========================================================
+
+
+// var num = Math.random()*100
+// console.log(Math.round(num))
+
+
+
+
+// =========================================================
+//                question # 08
+// =========================================================
+
+// var usernum =+ prompt("enter a number")
+// var num = Math.round(Math.random()*9)
+
+// if (usernum===num){
+//     alert("congrats u won")
+
 // }
-// =============================================
-// =================================================
-
-// var num = Math.random();
-// document.write("<h1> Random value between 1 & 100 : " + Math.round(num * 99) + "</h1>");
-// var weight = prompt("Enter your weight");
-// document.write("<h1> The weight of user is: " + parseFloat(weight) + " Kg </h1>");
-// var num = Math.random();
-// var userNum = prompt("Enter number between 1 & 10");
-// var secretNum = Math.round(num * 9); 
-// if(secretNum === Number(userNum)){
-//     document.write("<h1>  Congratulation </h1>");
-// }else{
-//     document.write("<h1> Please try again");
-// }
-// console.log(secretNum) 
+// else{alert("u lose")}
